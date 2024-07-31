@@ -1,0 +1,394 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Container{
+    max-width: 1200px;
+    margin: auto;
+}
+.navbar {
+    max-width: 1163px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 37px;
+    gap: 412px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 80px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    color: rgb(72, 72, 72);
+}
+.container1{
+    max-width: 1056px;
+    margin: auto;
+    margin-top: 114px;
+    display: flex;
+    align-items: center;
+    gap: 144px; 
+}
+.container2{
+    display: flex;
+    max-width: 985px;
+    margin: auto;
+    margin-top: 209px;
+    align-items: center;
+    gap: 323px;
+}
+.qwe1{
+    padding-top: 30px;
+}
+.link1{
+    display: inline;
+    color: rgb(163, 131, 233);
+}
+.link2{
+    display: block;
+    color: rgb(163, 131, 233);
+}
+.link3{
+    display: inline;
+    color: rgb(163, 131, 233);
+}
+.container3{
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 75px;
+    border-bottom: 2px solid rgb(126, 100, 180);
+}
+.tugmalar {
+    max-width: 700px;
+}
+button{
+    background-color: rgb(126, 100, 180);
+    color: rgb(237, 237, 237);
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-right: 11px;
+    margin-bottom: 26px;
+}
+h4{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 60px;
+    margin-right: 160px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-right: 125px;
+}
+.tugmalar2 {
+    max-width: 400px;
+}
+.backround{
+    background-color: rgb(126, 100, 180);
+}
+.container4{
+    max-width: 1512px;
+    margin: auto;
+    display: flex;
+    color: rgb(197, 197, 197);
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 43px;
+}
+.rasm2{
+    padding: 162px 30px 200px 176px;
+}
+.text2 > p{
+    margin-bottom: 30px;
+}
+.text2{
+    margin-top: 100px;
+}
+.container5{
+    display: flex;
+    max-width: 1179px;
+    margin: auto;
+    margin-top: 46px;
+}
+.left{
+    display: flex;
+    gap: 80px;
+}
+input{
+    display: block;
+    margin-top: 15px;
+    border: 1px solid rgb(126, 100, 180);
+    border-radius: 4px;
+}
+.inp1{
+    padding: 10px 40px 9px 10px;
+}
+.inp2{
+    padding: 9px 40px 9px 10px;
+}
+.inp3{
+    padding: 20px 40px 20px 10px;
+}
+::placeholder{
+    color: rgb(152, 152, 152);
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.Enviar{
+    padding: 9px 85px;
+    border-radius: 3px;
+}
+.inputs h2{
+    color: rgb(91, 91, 91);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.inputs{
+    margin-top: 26px;
+}
+.inputs button{
+    margin-top: 15px;
+}
+.Links{
+    margin-right: 170px;
+}
+.Links div{
+    display: flex;
+    margin-top: 25px;
+}
+.Links a{
+    display: flex;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgb(152, 152, 152);
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+} 
+.right{
+    display: flex;
+    margin-left: 35px;
+    margin-top: 26px;
+}
+.right h2{
+    width: 140px;
+    color: rgb(91, 91, 91);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.icon{
+    padding-right: 11px;
+}
+.WhatsApp{
+    text-align: center;
+}
+.WhatsApp h1{
+    color: rgb(91, 91, 91);
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 59px;
+}
+.WhatsApp h3{
+    color: rgb(152, 152, 152);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.container6{
+    display: flex;
+    background-color: rgb(56, 45, 80);
+    margin-top: 36px;
+}
+.container6 > h3{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 0px;
+}
+.container6 h3{
+    font-size: 20px;
+    color: rgb(237, 237, 237)
+}
+.container6 a{
+    color: rgb(132, 132, 132);
+    text-decoration: none;
+    font-size: 12px;
+}
+.left2{
+    padding: 20px 62px 20px 140px;
+}
+.right2{
+    padding-top: 40px;
+}
+.right2 h3{
+    color: rgb(237, 237, 237);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding-bottom: 15px;
+}
+.right2 h4{
+    color: rgb(237, 237, 237);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-bottom: 6px;
+}
+.main1{
+    display: flex;
+}
+.tugma{
+    transition: all .4s ease;
+}
+.tugma:hover{
+    font-size: 20px;
+    border-radius: 10px;
+}
+.tugma2:hover{
+    font-size: 20px;
+    border-radius: 10px;
+}
+.des{
+    position: relative;
+}
+.deco{
+    position: absolute;
+    left: -15px;
+    top: 0;
+    z-index: -1;
+}
+.a{
+    position: relative;
+    transition: all .4s ease;
+}
+.a2{
+    position: relative;
+    transition: all .4s ease;
+}
+.a3{
+    position: relative;
+    transition: all .4s ease;
+}
+.a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 0px;
+    background-color: rgb(126, 100, 180);
+    transition: all .4s ease;
+}
+.a2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 0px;
+    background-color: rgb(126, 100, 180);
+    transition: all .4s ease;
+}
+.a3::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 0px;
+    background-color: rgb(126, 100, 180);
+    transition: all .4s ease;
+}
+.a:hover::before{
+    width: 95px;
+    height: 2px;
+    color: rgb(126, 100, 180);
+}
+.a:hover{
+    color: rgb(126, 100, 180);
+}
+.a2:hover::before{
+    width: 80px;
+    height: 2px;
+    color: rgb(126, 100, 180);
+}
+.a3:hover::before{
+    width: 70px;
+    height: 2px;
+    color: rgb(126, 100, 180);
+}
+.a2:hover{
+    color: rgb(126, 100, 180);
+}
+.a3:hover{
+    color: rgb(126, 100, 180);
+}
